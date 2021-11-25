@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.layout {
+    height: 100vh;
+    display:grid;
+    grid-template: "top-left  top-right"  10%
+                    "center    center"    1fr/
+                      1fr     1fr;
+    
+}
+
+.name {
+    grid-area:top-left;
+    font-weight: bold; 
+    font-style:normal;
+    font-size: large;
+    text-align: left; 
+    padding-top: 3%;
+}
+
+
+.navigation {
+    grid-area:top-right;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    align-content: center;
+    
+}
+
+
+.navigation p {
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+.center {
+    grid-area:center;
+    display:grid;
+    grid-template-columns: repeat (2, 1fr);
+    place-content: center;
+    padding-bottom: 3cm;
+
+}
+
+.center h1 {
+    
+    font-weight: bolder;
+    font-size: 2cm;   
+}
+
+.center P {
+    font-size: medium;
+    word-spacing: 1mm;
+    line-height: 0.7cm;
+}
+

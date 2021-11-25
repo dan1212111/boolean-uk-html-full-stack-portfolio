@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.layout {
+    height: 100vh;
+    display: grid;
+    grid-template: "header"        150px
+                   "main"        1fr
+                   "footer"    1fr/
+                      1fr;
+
+}
+
+.about {
+    grid-area:header;
+    text-align: center;
+    font-size: 100%;
+    font-style: normal;
+    
+}
+
+.about h1 {
+    font-weight: bolder;
+    
+}
+
+.intro {
+    grid-area: main;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.intro p {
+    word-spacing: 2mm;
+}
+
+.list {
+    grid-area: footer;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.list ul {
+    font-size: medium;
+    line-height: 0.8cm;
+}
