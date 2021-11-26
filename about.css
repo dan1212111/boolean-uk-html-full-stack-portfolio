@@ -1,14 +1,15 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(252, 248, 243);
 }
 
 .layout {
     height: 100vh;
     display: grid;
-    grid-template: "header"        150px
-                   "main"        1fr
-                   "footer"    1fr/
-                      1fr;
+    grid-template: "header "     150px
+                   "main   "        1fr
+                   "footer "    1fr/
+                   1fr;
 
 }
 
@@ -24,6 +25,7 @@
     font-weight: bolder;
     
 }
+
 
 .intro {
     grid-area: main;

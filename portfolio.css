@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
 }
 
 .layout {
     height: 100vh;
     display: grid;
+    background-color: rgb(248, 238, 225);
     grid-template: "header" 50px
                     "main"  1fr/
                     1fr;
@@ -35,6 +38,7 @@
     border-style: solid;
     padding: 5%;
     border-color: orange;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-rows: 30px 1fr 50px/;
 
@@ -57,31 +61,30 @@
 .read-more {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    
 
 }
 
 .title {
     display: grid;
     grid-template: "header";
-    background-color: blueviolet;
+    background-color:rgb(255, 172, 77);
     border-style: solid;
-    border-color: black;
+    border-color: orange;
 }
 
 .title h4 {
     justify-self: center;
-    color: black;
+    color: white;
 }
 
 .link {
     display: grid;
     grid-template: "header";
-    border-style: solid;
-    border-color: black;
 }
 
 .link p {
     justify-self: center;
-    color: blueviolet;
+    color: rgb(255, 172, 77);
     text-decoration: underline;
 }

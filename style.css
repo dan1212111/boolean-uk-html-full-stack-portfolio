@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(255, 172, 77);
    
 }
 
@@ -18,7 +19,7 @@
     font-style:normal;
     font-size: large;
     text-align: left; 
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 
@@ -37,6 +38,9 @@
     border-style: solid;
     text-align: center;
     padding: 5%;
+    color:rgb(255, 172, 77);
+    background-color: rgb(248, 238, 225);
+    text-decoration: none; 
 }
 
 
